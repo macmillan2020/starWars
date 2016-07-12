@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Star Wars Travel Agency</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300|Space+Mono:400,400i,700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
+<body>
+	<header>
+		<div class="wrapper">
+			<div class="container">
+				<div class="topNav">
+					<div class="logo">
+						<!-- <img src="images/falcon.svg" alt="millenium falcon spacecraft" class="logoImage"> -->
+						<h1>STAR-TRIPS</h1>
+					</div>
+					<nav class="mainNav">
+						<ul>
+							<li><a href="#">Home</a></li>
+							<li><a href="#">About</a></li>
+							<li><a href="#">Contact</a></li>
+						</ul>
+					</nav>
+				</div><!--/.topNav-->
+				<div class="textBox">
+					<h2>The Celestial Best</h2>
+					<h4>your #1 source for galactic tour packages</h4>
+					<button class="btn">browse now</button>
+				</div>
+			</div><!--/.container-->
+		</div><!--/.wrapper-->
+	</header>
+	<main class ="main">
+		<form action="">
+			
+			<fieldset class="climate" id="climateField">
+				<div class="wrapper">
+					<div class="intro">
+						<h3>Choose your preferred climate.</h3>
+						<h4>Subscribe online and gain access to the entire archive.</h4>
+					</div>
+					<div class="options">
+						<div class="tile">
+							<img src="images/space1.jpg" alt="outer space">
+							<div class="tileCover">
+								<input type="radio" name="climate" id="temperate" value="temperate" required>
+								<label for="temperate"><p>temperate</p></label>
+							</div>
+						</div>
+
+						<div class="tile">
+							<img src="images/space2.jpg" alt="outer space">
+							<div class="tileCover">
+								<input type="radio" name="climate" id="cold" value="cold" required>
+								<label for="cold"><p>cold</p></label>
+							</div>
+						</div>
+						
+						<div class="tile">
+							<img src="images/space3.jpg" alt="outer space">
+							<div class="tileCover">
+								<input type="radio" name="climate" id="warm" value="warm">
+								<label for="warm"><p>warm</p></label>
+							</div>
+						</div>
+
+						<div class="tile">
+							<img src="images/space4.jpg" alt="outer space">
+							<div class="tileCover">
+								<input type="radio" name="climate" id="arid" value="arid">
+								<label for="arid"><p>arid</p></label>
+							</div>
+						</div>
+						
+						<div class="tile">
+							<img src="images/space5.jpg" alt="outer space">
+							<div class="tileCover">
+								<input type="radio" name="climate" id="tropical" value="tropical">
+								<label for="tropical"><p>tropical</p></label>
+							</div>
+						</div>
+						
+						<div class="tile">
+							<img src="images/space6.jpg" alt="outer space">
+							<div class="tileCover">
+								<input type="radio" name="climate" id="wet" value="wet">
+								<label for="wet"><p>wet</p></label>
+							</div>
+						</div>
+					</div><!--/.options-->
+					<input type="submit" value="Submit">
+				</div> <!-- /.wrapper -->
+			</fieldset> <!-- /.question1/climate -->
+		</form>
+		<section class ="results">
+			<div class="wrapper">
+				<div class="planet">
+					
+				</div><!--/.wrapper-->
+			</div>
+		</section>
+		<section class ="results">
+			<div class="wrapper">
+				<div class="singlePlanet">
+					
+				</div><!--/.wrapper-->
+			</div>
+		</section>
+	</main>
+	<footer>
+		Millennium Falcon by Jonas Nullens from the Noun Project
+	</footer>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+	<script src="scripts/script.js"></script>
+</body>
+</html>

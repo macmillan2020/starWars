@@ -1,0 +1,31 @@
+{
+  "name": "star-wars-travel",
+  "version": "1.0.0",
+  "description": "api-project",
+  "main": "script.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/macmillan2020/starWars.git"
+  },
+  "keywords": [
+    "starWars"
+  ],
+  "author": "Erin MacMillan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/macmillan2020/starWars/issues"
+  },
+  "homepage": "https://github.com/macmillan2020/starWars#readme",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.9.0",
+    "browser-sync": "^2.13.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-babel": "^6.1.2",
+    "gulp-concat": "^2.6.0",
+    "gulp-sass": "^2.3.2"
+  }
+}

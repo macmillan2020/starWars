@@ -82,10 +82,31 @@ Climate Categories:
 
 temperate
 
-cold: frozen, frigid, subartic, artic 
+cold: frozen, frigid, subartic, "artic", "subartic"
+
+warm: hot, superheated, 
 
 
+cold
+temperate 
+warm 
+arid 
+tropical 
+wet
 
+
+var name = $('<h2>').text(item.name);
+var climate = $('<p>').addClass('artist').text(item.climate);
+var terrain = $('<p>').addClass('terrain').text(item.terrain);
+var population = $('<p>').addClass('population').text(item.population);
+var residents = $('<p>').addClass('residents').text(item.residents);
+var films = $('<p>').addClass('films').text(item.films);
+
+
+var planetDetails = $('<div>').addClass('piece').append(image, title, artist);
+
+
+{'name' : planet.name, 'climate': planet.climate, 'terrain' : planet.terrain, 'gravity' : planet.gravity, 'population': planet.population, 'residents': planet.residents, 'films': planet.films};
 
 
 

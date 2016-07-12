@@ -1,0 +1,234 @@
+@import 'setup';
+@import 'variables';
+@import 'typography';
+
+
+///////////////////////////////////////////////////////
+///////			GENERAL
+//////////////////////////////////////////////////////
+
+
+.wrapper { 
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.container {
+	width: 100%;
+}
+
+body {
+	background: $sand;
+}
+
+
+///////////////////////////////////////////////////////
+///////			BUTTONS, ACCENTS & STATES
+//////////////////////////////////////////////////////
+
+
+.btn {
+	background: $orange;
+	color: $greenBlack;
+	width: 150px;
+	border: none;
+	border-radius: 16px;
+}
+
+.accent {
+	color: $greenBlack;
+}
+
+input[type="submit"] {
+	background-color: $greenBlack;
+	text-transform: uppercase;
+	color: $sand;
+	border: none;
+	font-size: 2.3rem;
+	padding: 10px;
+}
+
+.tileCover:hover {
+    background-color: rgba(40,138,214,0.5);
+
+}
+
+
+///////////////////////////////////////////////////////
+///////			HEADER
+//////////////////////////////////////////////////////
+
+
+header {
+	width: 100%;
+	background: $greenBlack;
+	height:100vh;
+	color: $sand;
+	background-image: linear-gradient(rgba(45,42,37,.9), rgba(5,6,9, .9)), url(../images/header.jpeg);
+}
+
+header .container {
+	display: flex;
+	height: 100vh;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.textBox {
+	display: flex;
+	width: 70%;
+	height: 240px;
+	flex-direction: column;
+	align-items: center;
+	background: $sand;
+	color: $greenBlack;
+	opacity: .8;
+	margin:auto;
+}
+
+
+
+///////////////
+// NAV & LOGO
+//////////////
+
+.topNav{
+	display: flex;
+	background: rgba(44,74,186,.76);
+	width: 100%;
+	height: 100px;
+	padding: 30px 0;
+	align-items: center;
+}
+
+.topNav, nav, nav ul {
+	display: flex;
+	width: 100%;
+}
+
+nav ul {
+	list-style: none;
+	justify-content: flex-end;
+	padding-right: 60px;
+		li {
+			margin-left: 50px;
+		}
+}
+
+.logo {
+	width: 40%;
+	padding-left: 65px;
+	background-image: url(../images/falcon.svg);
+	background-size: 120px 120px;
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+///////////////////////////////////////////////////////
+///////			MAIN
+//////////////////////////////////////////////////////
+
+
+
+
+///////////////
+// FORM
+//////////////
+
+fieldset {
+	border: none;
+}
+
+form p {
+	text-transform: uppercase;
+	width: 100%;
+}
+
+form .wrapper {
+	width:100%;
+	display: flex;
+	flex-wrap: wrap;
+	background: #DDDDDF;
+	margin-bottom: 20px;
+
+}
+.intro {
+	position:relative;
+	padding: 20px;
+}
+
+.options {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 20px;
+}
+.tile {
+	position: relative;
+	display:flex;
+	margin: 5px;
+	width: calc((100% / 6) - 10px);
+	border-radius: 50%;
+	text-align: center;
+	transition: background .5s ease-out;
+		img {
+			width: 100%;
+			height:100%;
+			border-radius: 50%;
+		}
+}
+
+.tileCover {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    transition: background .5s ease-out;
+}
+
+label {
+	display: block;
+	padding: 45px 0;
+	transition: color 0.3s;
+}
+
+input[type="radio"] {
+	display: none;
+}
+
+input[type="radio"]:checked + label {
+	background-color: rgba(40,138,214,0.6);
+	border-radius: 50%;  
+	color: #ffffff;
+	width: 100%;
+    height: 100%;
+}
+
+///////////////
+// RESULTS
+//////////////
+.results {
+	width: 100%;
+}
+
+.results .wrapper {
+	width:100%;
+	display: flex;
+	flex-wrap: wrap;
+	margin:0;
+}
+
+.planet {
+	width: 20%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+
+
+
+
+
